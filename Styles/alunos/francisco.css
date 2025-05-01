@@ -1,14 +1,14 @@
 @font-face {                                  /*Fonte Space-mono usada na logo*/              
     font-family: "space-mono";
-    src:url(/PI/Fonts/SpaceMono-Regular.ttf),
+    src:url(/Fonts/SpaceMono-Regular.ttf),
 }
 @font-face {                                  /*Fonte Oswald usada no contatos*/
     font-family: "itim";
-    src: url(/PI/Fonts/Itim-Regular.otf);
+    src: url(/Fonts/Itim-Regular.otf);
 }
 @font-face {                                  /*Fonte Oswald usada no contatos*/
     font-family: "oswald";
-    src: url(/PI/Fonts/Oswald-Regular.ttf);
+    src: url(/Fonts/Oswald-Regular.ttf);
 }
 
 *{  
@@ -122,7 +122,7 @@
 .info{
     background-color: #181717;
     width: 99.2vw;
-    height: 100vw;
+    height: 142.7vw;
 }
 .info h1{
     color: white;
@@ -137,16 +137,115 @@
     left: 10vh;
     top: 66vh;
     position: absolute;
-    font-size: 3vh;
+    font-size: 4vh;
     font-family: "space-mono";
 }
 .foto img{
     height: 40vh;
     float: right;
     margin-right: 10vw;
+    border-radius: 22vh;
 }
-.texto{
+.texto .primeiro{
     margin-top: 45vh;
     margin-left: 10vh;
     font-size: 3vh;
+    font-family: "oswald";
+}
+
+li::marker{
+    color: white;
+}
+.texto li::before {
+    content: '•';         /* adiciona uma bolinha */
+    color: white;         /* cor branca */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.2em;  /* posiciona a bolinha corretamente */
+  }
+  .texto ul {
+    list-style: none; /* remove as bolinhas padrão */
+    padding-left: 1.2em; /* espaço para a nova bolinha */
+    text-align: justify;
+    margin-right: 19vh;
+  }
+.texto li{
+    margin-bottom: 3vh;
+}
+.texto .segundo{
+    margin-left: 10vh;
+    font-size: 3vh;
+    font-family: "oswald";
+}
+.texto h2{
+    font-size: 4vh;
+    font-family: "space-mono";
+    margin-left: 10vh;
+    margin-bottom: 4vh;
+}
+.titulo{
+    margin-top: 2vh;
+}
+.linkedin img{
+    height: 100px;
+}
+.linkedin{
+    position: absolute;
+    top: 50vh;
+    left: 43%;
+}
+.gmail{
+    position: absolute;
+    top: 34vh;
+    left: 43%;
+}
+.gmail img{
+    height: 100px;
+}
+.linke{
+    position: absolute;
+    top: 38vh;
+    left: 5%;
+    font-size: 2vh;
+}
+.linke h1{
+    margin-bottom: 12vh;
+}
+.rodape{
+    background-color:#444040 ;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+}
+.informacao {
+    text-align: start;
+    margin-left: 4vh;
+}
+.informacao .facul{
+    font-size: 20px;
+    font-family: "oswald";
+    color: white;
+}
+.informacao .contato{
+    font-size: 20px;
+    font-family:"oswald";
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.informacao h1{
+    color: white;
+    font-size:40px;
+    font-family: "oswald";
+    padding-top: 10px;
+}
+.copi{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.rodape{
+    position: absolute;
+    bottom: -199vh;
+    width: 99vw;
 }
