@@ -15,6 +15,7 @@
     margin: 0;              /*configuraçao para padronizar o site em todos navegadores*/
     padding: 0; 
     list-style: none;
+    color: white;
 }
 
 .background-color{
@@ -118,50 +119,37 @@
     border-radius: 10px;
     text-decoration: none;
 }
-.centro{
-    height: 66.5vh;
-    background-color: #30363D;
+.info{
+    background-color: #181717;
+    width: 99.2vw;
+    height: 76vw;
+    float: right;
 }
-.final{
-    height: 118vh;
-    background-color: #0F0D16;
+.fatec img{
+    float: right;
+    margin-right: 5%;
+    margin-top: 3vh;
 }
-.imagei{
-    background-color:#fff;
-    height:500px;
-    width: 800px;
-    left: 200px;
-    top: 30%;
-    position: absolute;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.nomeh1{
+    margin-top:15vw;
+    font-size: 7vh;
+    margin-left: 8vh;
+    font-family: "space-mono";
 }
-.imagei1{
-    background-color:#fff;
-    height:220px;
-    width: 600px;
-    left: 1100px;
-    top: 30%;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
+.textao{
+    font-size: 3vh;
+    text-align: justify;
+    margin: 0 9vh;
+    margin-top: 6vw;
+    text-indent: 2.5%;
 }
-.imagei2{
-    background-color:#fff;
-    height:220px;
-    width: 600px;
-    left: 1100px;
-    top: 59%;
-    position: absolute;
-    font-size: 40px;
+.saiba{
+    font-size: 5vh;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 12vh;
+}
+.saiba a{
+    text-decoration: none;
 }
 .rodape{
     background-color:#444040 ;
@@ -170,23 +158,23 @@
     border-radius: 30px;
     position: relative;
 }
-.info {
+.informacao {
     text-align: start;
     margin-left: 4vh;
 }
-.info .facul{
+.informacao .facul{
     font-size: 20px;
     font-family: "oswald";
     color: white;
 }
-.info .contato{
+.informacao .contato{
     font-size: 20px;
     font-family:"oswald";
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.info h1{
+.informacao h1{
     color: white;
     font-size:40px;
     font-family: "oswald";
@@ -196,114 +184,8 @@
     font-size: 20px;
     padding-bottom: 20px;
 }
-.conteudo2{
-    height: 98vh;
-    color: white;
-    font-family: "itim";
-    box-shadow: 0px 8px 16px rgba(0,0,0,.2);
-    transition: all 5s;
-}
-.patch{
-    text-align: center;
-    font-size: 40px;
-    padding-top: 20px;
-}
-.final .conteudo2 ul{
-    margin-left: 100px;
-    color: white;
-    margin-top: 100px;
-    padding-top: 20px;
-}
-.conteudo2 ul li{
-    margin-top: 40px;
-    margin-left: 140px;
-    font-size: 2vh
-    
-}
-.conteudo2 li::before {
-        content: '•';         /* adiciona uma bolinha */
-        color: white;         /* cor branca */
-        display: inline-block;
-        width: 1em;
-        margin-left: -1.2em;  /* posiciona a bolinha corretamente */
-      }
-.updates{
-    position: absolute;
-    top: 120vh;
-    right: 45vh;
-}
-
-.updates li{
-    padding: 30px;
-    margin-top: 30px;
-    background-color: red;
-}
-
-.conteudo3{
-    color: white;
-    padding: 12px;
-    display: block;
-    text-decoration: none;
-    font-family: "itim";
-    box-shadow: 0px 8px 16px rgba(0,0,0,.2);
-    z-index: 2;
-    position: absolute;
-    left: 12%;
-    top: 108vh;
-    transition: all 3s;
-    border-radius: 10px; 
-    display: none;
-    
-}.conteudo3 ul li{
-    margin-top: 40px;
-}
-.conteudo3 h1{
-    position: absolute;
-    left: 69.8%;
-    top: -17.88vh;
-}
-.botao{
-    position: absolute;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
-    user-select: none;
-    padding: 10px 26px;
-    background-color: #00315c;
-}
-.botao2{
-    position: absolute;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
-    user-select: none;
-    padding: 10px 26px;
-    background-color: #00315c;
-    top: 30vh;
-}
-.botao:hover,.botao2:hover {
-    background-color: #00318c;
-  }
-
-/* Configuração inicial dos elementos */
-#elemento1 {
-    display: block; /* Visível inicialmente */
-}
-
-#elemento2 {
-    display: none; /* Oculto inicialmente */
-}
-
-/* Quando o checkbox estiver marcado */
-#alternador:checked ~ .final #elemento1 {
-    display: none; /* Oculta o primeiro elemento */
-}
-
-#alternador:checked ~ .final #elemento2 {
-    display: block; /* Mostra o segundo elemento */
-}
 .rodape{
     position: absolute;
-    bottom: -108vh;
+    bottom: -70vh;
     width: 99vw;
 }
