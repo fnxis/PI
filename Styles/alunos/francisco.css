@@ -122,7 +122,7 @@
 .info{
     background-color: #181717;
     width: 99.2vw;
-    height: 142.7vw;
+    height: 110.7vw;
 }
 .info h1{
     color: white;
@@ -246,6 +246,6 @@ li::marker{
 }
 .rodape{
     position: absolute;
-    bottom: -199vh;
+    bottom: -137vh;
     width: 99vw;
 }

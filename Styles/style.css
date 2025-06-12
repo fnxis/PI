@@ -18,13 +18,13 @@
 }
 
 .background-color{
-    background-color: #444040;
+    background-color: #444040;      /*configuraçao para parte de cima do terminal*/
     height: 48px;
     border-radius: 10px;
     
 }
-.terminal ul li.cores1{
-    background-color: red;
+.terminal ul li.cores1{             
+    background-color: red;          /*configuraçao para circulo vermelho do terminal*/
     border-radius: 12.5px;
     width: 25px;
     height: 25px;
@@ -33,7 +33,7 @@
     left: 15px;
 }  
 .terminal ul li.cores2{
-    background-color: yellow;
+    background-color: yellow;       /*configuraçao para circulo amarelo do terminal*/
     border-radius: 12.5px;
     width: 25px;
     height: 25px;
@@ -42,7 +42,7 @@
     left: 50px;
 }  
 .terminal ul li.cores3{
-    background-color: #00FF00;
+    background-color: #00FF00;      /*configuraçao para circulo verde do terminal*/
     border-radius: 12.5px;
     width: 25px;
     height: 25px;
@@ -51,18 +51,18 @@
     left: 85px;
 }  
 .full-background{
-    background-color: #181717;
+    background-color: #181717;      /*configuraçao para parte debaixo do terminal*/
     height: 230px;
 }
 .image{
-    float: left;
+    float: left;                /*configuraçao para imagem do git*/
     width: 150px;
     margin-left: 40px;
     margin-top: 30px;
 }
 
 .logo h1{
-    color: white;
+    color: white;           /*configuraçao para escrito commit -m "team"*/
     position: absolute;
     top:96px;
     left: 200px;    
@@ -71,19 +71,19 @@
     font-weight: 100;
 }
 .menus{
-    position: absolute;
+    position: absolute;     /*configuraçao para lista do menu horizontal*/
     right: 3vh;
     top: 190px;
     cursor: pointer;
 }
 .menus ul{
-    display: inline-flex;
+    display: inline-flex;       /*configuraçao para lista do menu horizontal*/
     gap: 7vh;
     margin-right: 3vh;
 
 }
 .menus ul li a{
-    text-decoration: none;
+    text-decoration: none;      /*configuraçao para lista do menu horizontal*/
     color: white;
     font-size: 20px;
     font-family: "itim";
@@ -91,7 +91,7 @@
 }
 .dropdown{
     display: none;
-    background-color: #00315c;
+    background-color: #00315c;          /*configuraçao para dropdown dos alunos*/
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0,0,0,.2);
     z-index: 1;
@@ -103,7 +103,7 @@
     color: white;
 }
 .dropdown a{
-    color: rgb(7, 6, 6);
+    color: rgb(7, 6, 6);            /*configuraçao para dropdown dos alunos*/
     padding: 12px;
     display: block;
     text-decoration: none;
@@ -114,22 +114,20 @@
 .dropdown:hover{display: block;}            /*ao passar o mouse em cima do dropdown ele ficara fixo na tela*/
 
 .dropdown a:hover{
-    background-color: rgba(0,0,0,.1);
+    background-color: rgba(0,0,0,.1);       /*configuraçao para dropdown dos alunos*/
     border-radius: 10px;
     text-decoration: none;
 }
 .centro{
-    height: 66.5vh;
+    height: 66.5vh;                     /*configuraçao para tamanho da pagina inicial*/
     background-color: #30363D;
 }
 .final{
-    height: 118vh;
+    height: 118vh;                      /*configuraçao para tamanho da pagina final*/
     background-color: #0F0D16;
 }
-.imagei{
-    background-color:#fff;
-    height:500px;
-    width: 800px;
+.imagei img{
+    width: 80vh;            /*configuraçao para tamanho da imagem maior*/
     left: 200px;
     top: 30%;
     position: absolute;
@@ -139,7 +137,7 @@
     align-items: center;
 }
 .imagei1{
-    background-color:#fff;
+    background-color:#fff;          /*configuraçao para tamanho da imagem menor em cima*/
     height:220px;
     width: 600px;
     left: 1100px;
@@ -151,7 +149,7 @@
     font-size: 40px;
 }
 .imagei2{
-    background-color:#fff;
+    background-color:#fff;          /*configuraçao para tamanho da imagem menor embaixo*/
     height:220px;
     width: 600px;
     left: 1100px;
@@ -164,58 +162,58 @@
     align-items: center;
 }
 .rodape{
-    background-color:#444040 ;
+    background-color:#444040 ;      /*configuraçao para rodape*/
     text-align: center;
     color: white;
     border-radius: 30px;
     position: relative;
 }
 .info {
-    text-align: start;
+    text-align: start;              /*configuraçao para rodape*/
     margin-left: 4vh;
 }
 .info .facul{
-    font-size: 20px;
+    font-size: 20px;                /*configuraçao para rodape*/
     font-family: "oswald";
     color: white;
 }
 .info .contato{
-    font-size: 20px;
+    font-size: 20px;                /*configuraçao para rodape*/
     font-family:"oswald";
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .info h1{
-    color: white;
+    color: white;               /*configuraçao para rodape*/
     font-size:40px;
     font-family: "oswald";
     padding-top: 10px;
 }
 .copi{
-    font-size: 20px;
+    font-size: 20px;               /*configuraçao para rodape*/
     padding-bottom: 20px;
 }
 .conteudo2{
-    height: 98vh;
+    height: 98vh;               /*configuraçao para tamanho da pagina 2*/
     color: white;
     font-family: "itim";
     box-shadow: 0px 8px 16px rgba(0,0,0,.2);
     transition: all 5s;
 }
 .patch{
-    text-align: center;
+    text-align: center;         /*configuraçao para os patch notes*/
     font-size: 40px;
     padding-top: 20px;
 }
-.final .conteudo2 ul{
+.final .conteudo2 ul{            /*configuraçao para os patch notes*/
     margin-left: 100px;
     color: white;
     margin-top: 100px;
     padding-top: 20px;
 }
-.conteudo2 ul li{
-    margin-top: 40px;
+.conteudo2 ul li{       
+    margin-top: 40px;            /*configuraçao para os patch notes*/
     margin-left: 140px;
     font-size: 2vh
     
@@ -228,19 +226,19 @@
         margin-left: -1.2em;  /* posiciona a bolinha corretamente */
       }
 .updates{
-    position: absolute;
+    position: absolute;          /*configuraçao para os patch notes*/
     top: 120vh;
     right: 45vh;
 }
 
 .updates li{
-    padding: 30px;
+    padding: 30px;               /*configuraçao para os patch notes*/
     margin-top: 30px;
     background-color: red;
 }
 
 .conteudo3{
-    color: white;
+    color: white;                /*configuraçao para a terceira pagina*/
     padding: 12px;
     display: block;
     text-decoration: none;
@@ -254,16 +252,16 @@
     border-radius: 10px; 
     display: none;
     
-}.conteudo3 ul li{
+}.conteudo3 ul li{               /*configuraçao para a terceira pagina*/
     margin-top: 40px;
 }
 .conteudo3 h1{
-    position: absolute;
+    position: absolute;              /*configuraçao para a terceira pagina*/
     left: 69.8%;
     top: -17.88vh;
 }
 .botao{
-    position: absolute;
+    position: absolute;             /*configuraçao para os patch notes*/
     color: white;
     cursor: pointer;
     border-radius: 5px;
@@ -272,7 +270,7 @@
     background-color: #00315c;
 }
 .botao2{
-    position: absolute;
+    position: absolute;             /*configuraçao para os patch notes*/
     color: white;
     cursor: pointer;
     border-radius: 5px;
@@ -303,7 +301,7 @@
     display: block; /* Mostra o segundo elemento */
 }
 .rodape{
-    position: absolute;
+    position: absolute;         /*configuraçao para posicao do rodape*/
     bottom: -108vh;
     width: 99vw;
 }

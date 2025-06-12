@@ -1,0 +1,276 @@
+@font-face {                                  /*Fonte Space-mono usada na logo*/              
+    font-family: "space-mono";
+    src:url(/Fonts/SpaceMono-Regular.ttf),
+}
+@font-face {                                  /*Fonte Oswald usada no contatos*/
+    font-family: "itim";
+    src: url(/Fonts/Itim-Regular.otf);
+}
+@font-face {                                  /*Fonte Oswald usada no contatos*/
+    font-family: "oswald";
+    src: url(/Fonts/Oswald-Regular.ttf);
+}
+
+*{  
+    margin: 0;              /*configuraçao para padronizar o site em todos navegadores*/
+    padding: 0; 
+    list-style: none;
+}
+
+.background-color{
+    background-color: #444040;      /*configuraçao para parte de cima do terminal*/
+    height: 48px;
+    border-radius: 10px;
+    
+}
+.terminal ul li.cores1{
+    background-color: red;         /*configuraçao para circulo vermelho do terminal*/
+    border-radius: 12.5px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}  
+.terminal ul li.cores2{
+    background-color: yellow;       /*configuraçao para circulo amarelo do terminal*/
+    border-radius: 12.5px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}  
+.terminal ul li.cores3{
+    background-color: #00FF00;      /*configuraçao para circulo verde do terminal*/
+    border-radius: 12.5px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 85px;
+}  
+.full-background{
+    background-color: #181717;      /*configuraçao para parte debaixo do terminal*/
+    height: 230px;
+}
+.image{
+    float: left;        /*configuraçao para imagem do git*/
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.logo h1{
+    color: white;           /*configuraçao para escrito commit -m "team"*/
+    position: absolute;
+    top:96px;
+    left: 200px;    
+    font-family: "space-mono";
+    font-size: 40px;
+    font-weight: 100;
+}
+.menus{
+    position: absolute;         /*configuraçao para lista do menu horizontal*/
+    right: 3vh;
+    top: 190px;
+    cursor: pointer;
+}
+.menus ul{
+    display: inline-flex;       /*configuraçao para lista do menu horizontal*/
+    gap: 7vh;
+    margin-right: 3vh;
+
+}
+.menus ul li a{
+    text-decoration: none;      /*configuraçao para lista do menu horizontal*/
+    color: white;
+    font-size: 20px;
+    font-family: "itim";
+    padding-bottom: 17px;
+}
+.dropdown{
+    display: none;
+    background-color: #00315c;      /*configuraçao para dropdown dos alunos*/
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,.2);
+    z-index: 1;
+    position: absolute;
+    right: 37%;
+    top: 4vh;
+    transition: all 3s;
+    border-radius: 10px;
+    color: white;
+}
+.dropdown a{
+    color: rgb(7, 6, 6);        /*configuraçao para dropdown dos alunos*/
+    padding: 12px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: "itim";
+}
+.menus4:hover + .dropdown,                  /*Ao passar o mouse em cima do menu4 ira aparecer o dropdown*/
+.dropdown:hover{display: block;}            /*ao passar o mouse em cima do dropdown ele ficara fixo na tela*/
+
+.dropdown a:hover{
+    background-color: rgba(0,0,0,.1);   /*configuraçao para dropdown dos alunos*/
+    border-radius: 10px;
+    text-decoration: none;
+}
+.rodape{
+    position: absolute;            /*configuraçao para posicao do rodape*/
+    bottom: 19.8vh;
+    width: 99.2vw;
+}
+
+.linhaazul{
+    height: 6.8vw;
+    background-color: #103c63;
+    margin-top: 182px;
+}
+.pagina1{
+    height: 30vw;
+}
+.card1{
+    background-color: #d8e035;
+    height: 15vw;
+    width: 55vw;
+    border-radius: 40px;
+    margin-left: 22.25vw;
+    margin-top: 52vw;
+}
+
+.card25{
+    background-color: #72bf67;
+    margin-top: -4vw;
+    height: 40vw;
+    width: 80vw;
+    margin-left: 10vw;
+    border-radius: 3vw;
+    z-index: 1;
+    position: absolute;
+    top: 30vw;
+}
+.card2{
+    background-color: green;
+    height:  5vw;
+    width: 93.5vw;
+    border-radius: 40px;
+    margin-left: 3vw;
+    margin-top: 15vw;
+    z-index: 10;
+    position: absolute;
+    top: 10vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2vw;
+    color: white;
+    font-family:"space-mono" ;
+}
+.escritos{
+    position: absolute;
+    top: 72vw;
+    font-size: 2vw;
+    width: 400px;
+    right: 27vw;
+    font-family: "itim";
+}
+.escritos h1{
+    margin-bottom: 3vw;
+}
+.escritos p{
+    font-family: "space-mono";
+    font-size: 3vw;
+    color: white;
+    font-family: "space-mono";
+    margin-left: 2vw;
+}
+.escritos a{
+    text-decoration: none;
+    color: black;
+    font-size: 2.9vw;
+}
+.titulo
+{
+    font-size:1.4vw;
+    width: 50vw;
+    margin-left: 3vw;
+    font-family: "space-mono";
+    color: white;
+    margin-top: -8vw;
+}
+.listas{
+    margin-left: 4vw;
+    color: white;
+    margin-top: 3vw;
+    font-size: 1vw;
+    font-family: "space-mono";
+}
+.listas li:before{
+     content: '•';         /* adiciona uma bolinha */
+        color: white;         /* cor branca */
+        display: inline-block;
+        width: 1em;
+        margin-left: -1.2em
+}
+.segundo{
+    position: absolute;
+    top: 26.7vw;
+    right: 40vw;
+}
+.listas p{
+    font-size: 3vw;
+    margin-bottom: 1vw;
+}
+.listas li{
+    margin-bottom: 1vw;
+    margin-bottom: 1vw;
+}
+.card1 img{
+    height: 12vw;
+    border-radius: 2vw;
+    margin-top: 1.5vw;
+}
+.card25 img{
+    margin-left: 55vw;
+    margin-top: 5vw;
+    border-radius: 3vw;
+}
+.rodape{
+    background-color:#103c63;      /*configuraçao para rodape*/
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.info {
+    text-align: start;              /*configuraçao para rodape*/
+    margin-left: 4vh;
+}
+.info .facul{
+    font-size: 20px;                /*configuraçao para rodape*/
+    font-family: "oswald";
+    color: white;
+}
+.info .contato{
+    font-size: 20px;                /*configuraçao para rodape*/
+    font-family:"oswald";
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.info h1{
+    color: white;               /*configuraçao para rodape*/
+    font-size:40px;
+    font-family: "oswald";
+    padding-top: 10px;
+}
+.copi{
+    font-size: 20px;               /*configuraçao para rodape*/
+    padding-bottom: 20px;
+}
+.linhaazul img{
+    height: 128px;
+    margin-left: 3vw;
+}

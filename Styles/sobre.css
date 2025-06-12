@@ -118,3 +118,93 @@
     border-radius: 10px;
     text-decoration: none;
 }
+.meio{
+    height: 87.2vw;
+    background-color: rgb(65, 65, 65);
+}
+.texto1{
+    color:white;
+    margin-left: 4vw;
+    padding-top: 4vw;
+    font-size: 1.7vw;
+    margin-right: 4vw;
+    text-indent: 2.25%;
+        font-family: "space-mono";
+}
+.texto2{
+    color: white;
+    margin-left: 4vw;
+    font-size: 2.4vw;
+    margin-top: 4vw;
+        font-family: "space-mono";
+}
+.lista{
+    color: white;
+    margin-left: 4vw;
+    font-size: 1.7vw;
+    margin-top: 4vw;
+        font-family: "space-mono";
+}
+.lista li{
+    margin-bottom: 2vw;
+}
+li::marker{
+    color: white;
+}
+.lista li::before {
+    content: '•';         /* adiciona uma bolinha */
+    color: white;         /* cor branca */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.2em;  /* posiciona a bolinha corretamente */
+}
+.lista ul {
+    list-style: none; /* remove as bolinhas padrão */
+    padding-left: 1.2em; /* espaço para a nova bolinha */
+    text-align: justify;
+    margin-right: 19vh;
+}
+.final{
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+    margin-top: 4vw;
+}
+.rodape{
+    background-color:#000000 ;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+}
+.informacao {
+    text-align: start;
+    margin-left: 4vh;
+}
+.informacao .facul{
+    font-size: 20px;
+    font-family: "oswald";
+    color: white;
+}
+.informacao .contato{
+    font-size: 20px;
+    font-family:"oswald";
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.informacao h1{
+    color: white;
+    font-size:40px;
+    font-family: "oswald";
+    padding-top: 10px;
+}
+.copi{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.rodape{
+    position: absolute;
+    bottom: -92vh;
+    width: 99.2vw;
+}
