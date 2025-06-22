@@ -1,14 +1,14 @@
 @font-face {                                  /*Fonte Space-mono usada na logo*/              
     font-family: "space-mono";
-    src:url(/Fonts/SpaceMono-Regular.ttf),
+    src:url(/PI/Fonts/SpaceMono-Regular.ttf),
 }
 @font-face {                                  /*Fonte Oswald usada no contatos*/
     font-family: "itim";
-    src: url(/Fonts/Itim-Regular.otf);
+    src: url(/PI/Fonts/Itim-Regular.otf);
 }
 @font-face {                                  /*Fonte Oswald usada no contatos*/
     font-family: "oswald";
-    src: url(/Fonts/Oswald-Regular.ttf);
+    src: url(/PI/Fonts/Oswald-Regular.ttf);
 }
 
 *{  
