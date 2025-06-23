@@ -205,6 +205,8 @@
     text-align: center;         /*configuraçao para os patch notes*/
     font-size: 40px;
     padding-top: 20px;
+    color: white;
+    font-family: "space-mono"
 }
 .final .conteudo2 ul{            /*configuraçao para os patch notes*/
     margin-left: 100px;
