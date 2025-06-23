@@ -4,7 +4,7 @@
 > Nome do curso: Desenvolvimento de Software Multiplataformas  
 > Instituição: FATEC Franca  
 > Semestre: 1º
-> Turma: DSM-G02-2025-1]
+> Turma: DSM-G02-2025-1
 
 ---
 
